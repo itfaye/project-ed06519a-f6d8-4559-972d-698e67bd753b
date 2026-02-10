@@ -12,7 +12,9 @@ const InvitationCard = ({ firstName, lastName, onEdit }: InvitationCardProps) =>
 
   const invitationText = `${firstName} ${lastName}, приглашаю тебя на свидание 💖
 14.02.2026
-Место: Атакент, Kinopark`;
+
+✨ Кейбір кештер ерекше адамдармен әдемі өтеді…
+Сол кешті сенімен бірге өткізгім келеді 💫`;
 
   const handleCopy = async () => {
     try {
@@ -49,9 +51,9 @@ const InvitationCard = ({ firstName, lastName, onEdit }: InvitationCardProps) =>
             <span className="text-xl">📅</span>
             <span className="text-lg font-medium">14.02.2026</span>
           </div>
-          <div className="flex items-center justify-center gap-2 text-foreground">
-            <span className="text-xl">📍</span>
-            <span className="text-lg">Атакент, Kinopark</span>
+          <div className="text-center text-foreground mt-2">
+            <p className="text-lg">✨ Кейбір кештер ерекше адамдармен әдемі өтеді…</p>
+            <p className="text-lg">Сол кешті сенімен бірге өткізгім келеді 💫</p>
           </div>
         </div>
 
