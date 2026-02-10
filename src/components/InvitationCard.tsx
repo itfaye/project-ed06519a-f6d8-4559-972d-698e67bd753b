@@ -11,7 +11,7 @@ const InvitationCard = ({ firstName, lastName, onEdit }: InvitationCardProps) =>
   const [copied, setCopied] = useState(false);
 
   const invitationText = `${firstName} ${lastName}, приглашаю тебя на свидание 💖
-14.02.2026 вечером, 17:00
+14.02.2026
 Место: Атакент, Kinopark`;
 
   const handleCopy = async () => {
@@ -48,10 +48,6 @@ const InvitationCard = ({ firstName, lastName, onEdit }: InvitationCardProps) =>
           <div className="flex items-center justify-center gap-2 text-foreground">
             <span className="text-xl">📅</span>
             <span className="text-lg font-medium">14.02.2026</span>
-          </div>
-          <div className="flex items-center justify-center gap-2 text-foreground">
-            <span className="text-xl">🕐</span>
-            <span className="text-lg">вечером, 17:00</span>
           </div>
           <div className="flex items-center justify-center gap-2 text-foreground">
             <span className="text-xl">📍</span>
